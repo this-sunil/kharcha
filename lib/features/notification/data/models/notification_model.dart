@@ -1,0 +1,13 @@
+class NotificationModel {
+  final String title;
+
+  const NotificationModel({required this.title});
+
+  factory NotificationModel.fromJson(Map<String, dynamic> json) {
+    return NotificationModel(title: json['title'] ?? '');
+  }
+
+  Map<String, dynamic> toJson() {
+    return {'title': title};
+  }
+}

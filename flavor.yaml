@@ -1,0 +1,18 @@
+flavors:
+  dev:
+    app:
+      name: "Example Dev"
+      baseUrl: "https://dev-api.example.com"
+    android:
+      applicationId: "com.example.app.dev"
+    ios:
+      bundleId: "com.example.app.dev"
+
+  prod:
+    app:
+      name: "Example"
+      baseUrl: "https://api.example.com"
+    android:
+      applicationId: "com.example.app"
+    ios:
+      bundleId: "com.example.app"

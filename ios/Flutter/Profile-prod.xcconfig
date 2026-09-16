@@ -1,0 +1,7 @@
+#include "Debug.xcconfig"
+#include? "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile-prod.xcconfig"
+
+FLUTTER_TARGET=lib/main.dart
+APP_NAME=Example
+BASE_URL=https://api.example.com
+PRODUCT_BUNDLE_IDENTIFIER=com.example.app
