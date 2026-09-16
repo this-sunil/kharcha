@@ -1,7 +1,7 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:kharcha/core/Storage/SecureStorage.dart';
+import 'package:kharcha/core/Storage/secure_storage.dart';
 import 'package:kharcha/core/router/app_routes.dart';
 
 import 'core/util/CustomText.dart';

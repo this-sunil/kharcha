@@ -4,7 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:kharcha/core/router/app_routes.dart';
 import 'package:kharcha/features/auth/presentation/riverpod/auth_provider.dart';
 
-import '../../../../core/Storage/SecureStorage.dart';
+import '../../../../core/Storage/secure_storage.dart';
 import '../../../../core/util/CustomText.dart';
 
 class AuthRegister extends ConsumerStatefulWidget {

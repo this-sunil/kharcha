@@ -1,7 +1,7 @@
 import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:either_dart/either.dart';
-import 'package:kharcha/core/Storage/SecureStorage.dart';
+import 'package:kharcha/core/Storage/secure_storage.dart';
 import 'package:kharcha/core/util/api_response.dart';
 import '../../../../core/network/dio_network.dart';
 import '../models/auth_model.dart';

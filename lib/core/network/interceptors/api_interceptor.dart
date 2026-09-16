@@ -1,7 +1,7 @@
 
 
 import 'package:dio/dio.dart';
-import 'package:kharcha/core/Storage/SecureStorage.dart';
+import 'package:kharcha/core/Storage/secure_storage.dart';
 import 'package:kharcha/core/network/dio_network.dart';
 
 class CustomInterceptors extends Interceptor {
